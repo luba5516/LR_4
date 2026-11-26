@@ -1,0 +1,15 @@
+#LR_4
+# ignore all txt files
+*.txt
+# ignore object and archive files
+*.[oa]
+# ignore temporary files (ending with ~)
+*~
+# ignore file TODO only in this folder
+/TODO
+# ignore all files in folder build/
+build/
+# ignore doc/notes.txt, but not others
+doc/*.txt
+# ignore all pdf files in doc/ and subfolders
+doc/**/*.pdf
