@@ -5,6 +5,8 @@
 *.[oa]
 # ignore temporary files (ending with ~)
 *~
+# ignore Word temporary files
+~$*
 # ignore file TODO only in this folder
 /TODO
 # ignore all files in folder build/
